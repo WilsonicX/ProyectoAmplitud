@@ -68,7 +68,7 @@ public class BusquedaAmplitud {
 
     }
 
-    public void imprimircaminos() {
+    public void imprimirCaminos() {
 
         for (int k = 0; k < this.caminos.size(); k++) {
             System.out.println(java.lang.Integer.parseInt(this.caminos.get(k).toString()));

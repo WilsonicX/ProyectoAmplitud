@@ -33,7 +33,7 @@ public class Principal {
         int op;
         do {
             java.util.Scanner dato = new java.util.Scanner(System.in);
-            System.out.println("Digite opcion");
+            System.out.println("Digite opcion:");
             op = dato.nextInt();
 
             switch (op) {
@@ -49,7 +49,7 @@ public class Principal {
                     System.out.println("Busqueda en Amplitud");
                     BusquedaAmplitud ba = new BusquedaAmplitud();
                     System.out.println(ba.buscar(graf, 0, 5));
-                    ba.imprimircaminos();
+                    ba.imprimirCaminos();
                     break;
 
                 case 3:
